@@ -9,11 +9,12 @@ class App {
   #navigationDrawer = null;
   #authNavItem = null;
 
+  // In the App class constructor
   constructor({ navigationDrawer, drawerButton, content, authNavItem }) {
     this.#content = content;
     this.#drawerButton = drawerButton;
     this.#navigationDrawer = navigationDrawer;
-    this.#authNavItem = authNavItem;
+    this.#authNavItem = authNavItem; // Make sure this is set correctly
 
     this.#setupDrawer();
     this.#updateAuthNavItem();
