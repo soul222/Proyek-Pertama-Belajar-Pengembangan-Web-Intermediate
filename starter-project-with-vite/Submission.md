@@ -100,3 +100,4 @@ Memanfaatkan Animation API untuk membuat transisi halaman lebih menarik.
 
 - Jika aplikasi menggunakan API key dari map service, sertakan dalam `STUDENT.txt`.
 - Jika `STUDENT.txt` belum ada, buat baru dalam root project.
+- Map Service gunakan Leaflet Library dan openstreet.
